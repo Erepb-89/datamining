@@ -1,7 +1,5 @@
 import scrapy
 
-from gb_parse.loaders import HeadHunterLoader, HhAuthorLoader
-
 
 class HeadHunterSpider(scrapy.Spider):
     name = "headhunter"
